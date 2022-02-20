@@ -1,0 +1,39 @@
+.contenedor {
+    width: 100%;
+    background: linear-gradient(to top, #ed4264, #ffedbc);
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-nav {
+    font-family: $chicle;
+    a {
+        padding: 5px;
+        font-size: 1.2rem;
+        list-style: none;
+        color: #460646;
+        text-decoration: none;
+        font-size: 30px;
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+.container-fluid {
+    background: linear-gradient(to top, #ed4264, #ffedbc);
+    z-index: 10;
+}
+
+.navbar-brand img {
+    height: 120px;
+    width: 120px;
+}
+
+@media (max-width: 991px) {
+    .navbar-brand img {
+        height: 112px;
+    }
+}

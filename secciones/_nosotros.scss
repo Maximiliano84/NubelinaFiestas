@@ -1,0 +1,23 @@
+/* Nosotros */
+
+.main-nosotros {
+    max-width: 700px;
+    width: 100%;
+    padding: 20px 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: $violeta;
+    font-family: $chicle;
+    background: linear-gradient(to top, #ed4264, #ffedbc);
+    border-radius: 3%;
+}
+
+.sobre-nosotros {
+    font-size: 3rem;
+    color: $violeta;
+}
+
+.parrafo-nosotros {
+    font-size: 2rem;
+}
